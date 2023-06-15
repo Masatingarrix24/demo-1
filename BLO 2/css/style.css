@@ -1,0 +1,2431 @@
+html,body {
+    width: 100%;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    margin: 0;
+}
+
+ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+section {
+    /*display: inline-block;*/
+}
+
+th {
+    white-space: nowrap;
+}
+
+.logostyle {
+    position: absolute;
+    width: 28px;
+    height: 26px;
+}
+
+.is-big {
+    font-size: 50px;
+  }
+
+
+/* -----375px：SP
+TTTTTTTTTTTTOOOOOOOOOOOPPPPPPPPP
+============ TOP PAGE開始 ============================================================================*/
+/*表題1*/
+.text01 { 
+    font: normal normal 32px/46px "Source Han Serif";
+    text-align: center;
+    letter-spacing: 0px;
+    color: #2A2A2A;
+    text-shadow: 4px 3px 6px #00000029;
+    opacity: 1;
+}
+
+/*表題2*/
+.text02 {
+    width: 64px;
+    height: 23px;
+    position: relative;
+    text-align: center;
+    font: normal normal 16px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #333333;
+    text-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+
+/* -----375px：SP
+/*========= TOPPAGE >>  ヘッダー開始 ===============*/
+.header {
+    display: block;
+    width: 100%;
+    height: 64px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.header-logo {
+    float: left;
+}
+
+.logostyle {
+    margin: 19px 0 0 13px;
+}
+
+.headerlogotext {
+    margin: 20.5px 0 0 43.5px ;
+}
+
+.logotext {
+    position: absolute;
+    height: 23px;
+    text-align: left;
+    font: normal normal 600 21px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+
+/* -----375px：SP
+/*========= TOPPAGE >>  main画像開始 ===============*/
+#top {
+    position: relative;
+    width: 100%;
+    height: 509px;
+    opacity: 1;
+    background-color: #C9CACA;
+    border-bottom-right-radius: 20px;
+}
+
+.topimag {
+    border-bottom-right-radius: 20px;
+}
+
+.main-text01 {
+    position: absolute;
+}
+
+h1 , h2 {
+    position: absolute;
+    text-align: left;
+    font: normal normal bold 21px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+/* -----375px：SP
+/*========= TOPPAGE >>  Message開始 ===============*/
+.message {
+    /*display: inline-block;*/
+    width: 100%;
+    height: 764px;
+}
+
+.message-title {
+    /*margin: 384px 0 0 122px;*/
+    width: 100%;
+    margin-top: 384px;
+    z-index: 3;
+    position: absolute;
+}
+
+.message-main {
+    display: inline-block;
+    margin-top: 300px;
+    width: 375px;
+    height: 464px;
+    z-index: 0;
+    opacity: 0.8;
+}
+
+.message-container {
+    display: inline-block;
+    position: absolute;
+    width: 311px;
+    height: 231px;
+    margin: 64px 32px 0 32px;
+    padding: 179px 0 0 0;
+    z-index: 1;
+}
+
+/*表題1*/
+.title-m1 { 
+    width: 132px;
+    height: 46px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*表題2*/
+.title-m2 {
+    padding-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.title-m2::after {
+    content: '';
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 2px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    background-color: #000;
+}
+
+.border {
+    border-left: 1px solid #000;
+}
+
+/*CEO*/
+.text03 {
+    margin:0 8px 0 28px;
+    text-align: left;
+    font: normal normal bold 21px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+/*NAME*/
+.text04 {
+    width: 84px;
+    height: 30px;
+    text-align: left;
+    font: normal normal bold 21px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+.ceo {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-image: url(../css/CEO_SP.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+    opacity: 1;
+}
+
+.ceomessage {
+    margin: 16px 0 0 28px;
+    width: 256px;
+    height: 143px;
+    text-align: left;
+    font: normal normal 16px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+
+/* -----375px：SP
+/*========= TOPPAGE >>  Company開始 ===============*/
+#company {
+    /*margin: 366px 360px 0 366px;*/
+    position: relative;
+    width: 100%;
+    height: 1246px;
+    opacity: 1;
+}
+
+.title-c1 {
+    width: 150px;
+    height: 46px;
+    margin: 244px 0 0 31px;
+    position: absolute;
+    z-index: 2;
+}
+
+.title-c2 {
+    position: absolute;
+}
+
+.companyparts {
+    margin: 269px 55px 0 0;
+    position: absolute;
+    width: 270px;
+    height: 64px;
+    background: #DFCFCC 0% 0% no-repeat padding-box;
+    z-index: 1;
+    opacity: 1;
+}
+
+.companyparts::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -40px;
+    width: 50%;
+    height: 100%;
+    border-right: 25px transparent;
+	transform: skew(-45deg);
+    background: #DFCFCC 0% 0% no-repeat padding-box;
+    z-index: -1;
+}
+
+.company {
+    display: block;
+    position: absolute;
+    width:100%;
+    margin: 475.5px 0 0 0;
+    padding-left: 32px;
+}
+
+.company-table {
+    width: 311px;
+    height: 516px;
+    margin: 142.5 0 0 32px;
+}
+
+.company-table th {
+    text-align: left;
+    padding-right: 31px;
+    padding-left: 18px;
+    border-bottom: 1px solid #D6D6D6;
+    width: 48px;
+    height: 23px;
+    font: normal normal 600 16px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+.company-table td {
+    border-bottom: 1px solid #D6D6D6;
+}
+
+table {
+    border-collapse: collapse;
+    width: 880px;
+}
+
+.td08 {
+    width: 159px;
+    height: 131px;
+    border-bottom: none;
+    font: normal normal normal 16px/18px "Source Han Serif";
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+
+/* -----375px：SP
+/*========= TOPPAGE >>  Recruit開始 ===============*/
+.container {
+    position: relative;
+    width: 100%;
+    height: 684px;
+}
+
+#recruit {
+}
+
+.recruit {
+    position: absolute;
+    width: 100%;
+    height: 303px;
+    margin-top: 0;
+    margin-left: 0;
+    /*margin-right: 128px;*/
+    background-image: url(../css/recruit_back_SP.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.title-r1 {
+    margin: 50px 0 0 51px;
+    text-align: left;
+}
+
+.title-r2 {
+    text-align: initial;
+}
+
+.re-message {
+    margin: 25px 100px 0 51px;
+    text-align: left;
+    font: normal normal normal 16px/18px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+.re-button {
+    width: 272px;
+    height: 39px;
+    margin: 48px 68px 0 64px;
+    background: #2A2A2A 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px;
+    opacity: 1;
+    text-align: left;
+}
+
+.re-text {
+    margin: 8px 80px;
+    display: inline-block;
+    font: normal normal normal 16px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.re-button a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/* -----375px：SP
+/*========= TOPPAGE >>  Contact開始 ===============*/
+#contact {
+}
+
+.contact {
+    position: absolute;
+    width: 100%;
+    height: 381px;
+    margin-top: 303px;
+    margin-left: 0;
+    background: #525556 0% 0% no-repeat padding-box;
+    border: 1px solid #C9CACA;
+    opacity: 1;
+}
+
+.title-t1 {
+    margin: 51px 203px 0 50px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.title-t2 {
+    text-align: initial;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.contact-message {
+    margin: 25px 131px 0 52px;
+    text-align: left;
+    font: normal normal normal 16px/18px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.cont-button {
+    width: 272px;
+    height: 40px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+    opacity: 1;
+}
+
+.cont-button a {
+    color: inherit;
+    text-decoration: none;    
+}
+
+.phone {
+    margin: 25px 0 0 52px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-width: 2px;
+    border-color: #9EAEBD;
+    border-style: solid;
+}
+
+.form {
+    margin: 24px 0 0 52px;
+    background: #9EAEBD 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+}
+
+.phone-text {
+    display: inline-block;
+    /*margin: 8px 0 0 72px;*/
+    font: normal normal normal 16px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #9EAEBD;
+    vertical-align: middle;
+}
+
+.form-text {
+    display: inline-block;
+    /*margin: 9px 44.76px;*/
+    text-align: left;
+    vertical-align: middle;
+    font: normal normal normal 16px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.icon01 {
+    width: 12px;
+    height: 17px;
+    margin: 10px 8px 0 0;
+    color: #FFFFFF;
+}
+
+.icon02 {
+    width: 15px;
+    margin: 13px 8px 0 0;
+    color: #FFFFFF;
+}
+
+
+/* -----375px：SP
+/*========= TOPPAGE >>  map開始 ===============*/
+.map {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.map-image {
+    position: absolute;
+    width: 313px;
+    height: 240px;
+    margin-left: 31px;
+    margin-top: 32px;
+    background-color: #C9CACA;
+    opacity: 1;
+}
+
+.maptext {
+    width: 173px;
+    height: 75px;
+    margin: 10px 0 0 9px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.adress{
+    position: absolute;
+    margin: 187px 0 0 30px;
+    width: 256px;
+    height: 60px;
+    text-align: left;
+    font: normal normal normal 16px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #2A2A2A;
+    opacity: 1;
+}
+
+
+/* -----375px：SP
+/*========= TOPPAGE >>  フッター開始 ===============*/
+.footer {
+    width:100%;
+    height: 681px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.45;
+}
+
+.footer-list {
+    display: block;
+    width: 311px;
+    height: 353px;
+    /*margin-top: 78px;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-top: 78px;
+    text-align: left;
+    font: normal normal normal 16px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.footer-logostyle {
+    width: 28px;
+    height: 26px;
+}
+
+.footer-logo {
+    /*margin: 150px 0 0 98.25px;*/
+    margin-left: 26%;
+    margin-top: 150px;
+    display: inline-block;
+}
+
+.footerlogotext {
+    display: initial;
+    margin-left: 2.5px;
+    color: #FFFFFF;
+    font: normal normal normal 16px/24px "Source Han Serif";
+}
+
+.footer-under {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    background: #525556 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.footer-text {
+    /*position: absolute;*/
+    width: 95px;
+    height: 23px;
+    /*margin: 29px 0 0 140px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 29px;
+    text-align: left;
+    font: normal normal normal 16px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+
+
+
+
+/* -----375px：SP
+/*====================== RecruitPAGE開始 =============================================================================================*/
+.re-body {
+    width: 375px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.recruit-title {
+    /*margin: 55px 0 0 129px;*/
+    margin-top: 55px;
+}
+
+/*採用情報表*/
+.re-company {
+    display: block;
+    width: 375px;
+    height: 802px;
+    /*margin: 120px 0 192px 360px;*/
+}
+
+.re-company-table {
+    width: 311px;
+    height: 802px;
+    margin: 67px 0 0 35px;
+    word-wrap: break-word;
+}
+
+.re-company-table th {
+    text-align: left;
+    padding-right: 0;
+    border-bottom: 1px solid #D6D6D6;
+    width: 311px;
+    height: 23px;
+    font: normal normal normal 16px/18px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+.re-company-table td {
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.th-space {
+    line-height: 2em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 311px;
+}
+
+.re-company tbody {
+    width: 375px;
+    line-height: 2em;
+}
+
+.td08 {
+    width: 159px;
+    height: 131px;
+    border-bottom: none;
+    font: normal normal normal 16px/18px "Source Han Serif";
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+/*福利厚生のBox*/
+.recruit-box {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 61px 0 0 32px;
+}
+
+.re-box {
+    width: 312px;
+    height: 381px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.re-img01, .re-img02, .re-img03 {
+    width: 273.88px;
+    height: 187.64px;
+    margin: 19px 19px 0 19px;
+    border: 1px solid #C9CACA;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.re-img01 {
+    background-image: url(../css/re-box02.png);
+}
+
+.re-img02 {
+    background-image: url(../css/re-box01.png);
+    
+}
+
+.re-img03 {
+    background-image: url(../css/re-box03.png);
+}
+
+
+.benefits {
+    margin: 216px 0  0 7.88px;
+    width: 266px;
+    height: 148px;
+    text-align: left;
+    font: normal normal 600 16px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+/*採用に関するメッセージ*/
+.saiyou {
+    width: 256px;
+    height: 143px;
+    /*margin: 63px 0 0 60px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 63px;
+    text-align: left;
+    font: normal normal 600 16px/24px Source Han Serif;
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+/*Contact*/
+.re-contact {
+    width: 375px;
+    height: 381px;
+    margin: 130px 0 0 0;
+    background: #525556 0% 0% no-repeat padding-box;
+    border: 1px solid #C9CACA;
+    opacity: 1;
+}
+
+
+
+
+/* -----375px：SP
+/*====================== ContactPAGE開始 =============================================================================================*/
+/*表題2*/
+.con-title2 {
+    padding-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96px;
+    height: 23px;
+    position: relative;
+    text-align: center;
+    font: normal normal normal 16px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #333333;
+    text-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.con-title2::after {
+    content: '';
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 2px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    background-color: #000;
+
+}
+
+.contact-title {
+    /*margin: 55px 0 0 127px;*/
+    margin-top: 55px;
+}
+
+.con-contact {
+    width: 311px;
+    height: 879px;
+    /*margin: 122px 0 0 32px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 122px;
+    opacity: 1;
+}
+
+.contact-table {
+    width: 100%;
+    margin: 64px 0 569px 0;
+    text-align: left;
+    font: normal normal 600 16px/24px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #333333;
+    opacity: 1;
+}
+
+.formbox {
+    width: 288px;
+    height: 40px;
+    margin: 8px 0 28.5px 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #95989A;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.policy {
+    text-align: center;
+}
+
+.policy span {
+    text-decoration: underline;
+}
+
+.submitbox {
+    margin-top: 33px;
+}
+
+.submit {
+    width: 96px;
+    height: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #9EAEBD 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px;
+    border: 1px #FFFFFF;
+    text-align: center;
+    font: normal normal normal 16px/18px "Source Han Serif";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.submitbox input:hover {
+    background: #DFCFCC;
+}
+
+.con01 {
+    margin-top: 351px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================================================
+--------〜375pxSP-------------------------------------------------------- */
+@media screen and (max-width:375px) {
+    .header-list {
+        display: none;
+    }
+
+    .text01 {
+        /*width: 118px;
+        height: 46px;*/
+        
+    }
+
+    /*========= ここからハンバーガーメニュー ===============*/
+    .menu-btn {
+        position: absolute;
+        right: 8px;
+        margin-top: 8px;
+        display: flex;
+        height: 48px;
+        width: 48px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+    }
+  
+    .menu-btn span,
+    .menu-btn span::before,
+    .menu-btn span::after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 24px;
+        border-radius: 3px;  
+        background-color: #000;
+        position: absolute;
+    }
+  
+    .menu-btn span::before {
+        bottom: 8px;
+    }
+ 
+    .menu-btn span::after {
+        top: 8px;
+    }
+  
+    #menu-btn-check:checked ~ .menu-btn span {
+        background-color: rgba(255,255,255,0);
+        /* メニューオープン時に真ん中の線を透明にする */
+    }
+  
+    #menu-btn-check:checked ~ .menu-btn span::before {
+        bottom: 0;
+        transform: rotate(45deg);
+    }
+  
+    #menu-btn-check:checked ~ .menu-btn span::after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+  
+    #menu-btn-check {
+        display: none;
+    }
+  
+    .menu-contents {
+        width: 100%;
+        height: 811px;
+        position: fixed;
+        top: 0;
+        left: 100%; /* leftの値を変更してメニューを画面外へ */
+        z-index: 80;
+        text-align: center;
+        background: #FAFAFA 0% 0% no-repeat padding-box;
+        /*opacity: 0.8;*/
+        transition: all 1s;
+    }
+  
+    .menu-contents ul {
+        padding: 77px 0 0 32px;
+    }
+  /*
+  .menu-content ul li {
+    border-bottom: solid 1px #fff;
+  }*/
+  
+    .menu-contents ul li a {
+        display: block;
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        text-decoration: none;
+        border-bottom: 1px solid #D6D6D6;
+        padding: 16px 0 16px 0;
+        text-align: left;
+        font: normal normal 600 16px/24px "Source Han Serif";
+        letter-spacing: 0px;
+        color: #333333;
+        opacity: 1;
+    }
+  
+    .menu-contents ul li a::before {
+        content: '';
+        width: 7px;
+        height: 7px;
+        transform: rotate(45deg);
+        position: absolute;
+        right: 11px;
+        top: 16px;
+    }
+  
+    #menu-btn-check:checked ~ .menu-contents {
+        left: 0; /* メニューを画面内へ */
+    }
+
+
+    .hum-logo {
+        width: 240px;
+        height: 80px;
+        margin: 153px 0 0 68px;
+        text-align: center;
+    }
+
+    .humlogotext {
+        margin: 30px 0 0 60px;
+    }
+
+    .hum-logostyle {
+        position: absolute;
+        left: 90px;
+        width: 28px;
+        height: 26px;
+        margin-top: 30px;
+    }
+
+    .message-container {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+
+    /*----main画像のテキスト----*/
+    .main-text01 {
+        position: absolute;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+    
+    h1 , h2 {
+        position: absolute;
+        width: 21px;
+        height: 270px;
+        text-align: left;
+        font: normal normal bold 21px/24px "Source Han Serif";
+        letter-spacing: 0px;
+        color: #333333;
+        opacity: 1;
+    }
+    
+    h1 {
+        margin: 321px 0 0 291px;
+    }
+    
+    h2 {
+        margin: 435px 0 0 258px;
+    }
+
+    /*----Message----*/
+    .sptext {
+        display: none;
+    }
+    
+
+    /*----Companytableの一番下を上揃え----*/
+    .th08 , .td08 {
+        vertical-align: text-top;
+        padding-top: 16px;
+    }
+
+    /*----ContactPAGEのformbox----*/
+    .contact-table input[type="text"].formbox {
+        width: 311px;
+        border: 1;
+        border-bottom: 1px solid #95989A;
+        text-decoration: underline;
+    }
+
+    .re-box {
+        margin-bottom: 16px;
+    }
+
+    /*----ContactPAGEのsubmitbox----*/
+    .submitbox {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-flex;
+    }
+
+    /*----フッターリスト----*/
+    .footer-list li {
+        border-bottom: 1px solid #D6D6D6;
+        padding: 16px 0 16px 0;
+        margin-left: 0;
+    }
+
+    .re-company-table th {
+        white-space: initial;
+    }
+
+    /*----contactPage----*/
+    .con-border {
+        border: solid #EEEEEE 1px;
+    }
+    
+
+}
+
+
+
+
+/* ==============================================================================
+TTTTTTTTTTAAAAAAAAAABBBBBBBBBB
+--------376px〜800px：タブレット-------------------------------------------------------- */
+@media screen and (min-width:376px) and (max-width:1280px) {
+    .header-list {
+        display: none;
+    }
+
+/*====================== TOP PAGE開始 =============================================================================================*/
+
+    /*表題1*/
+    .text01 { 
+        font: 32px/46px Source Han Serif;
+    }
+
+
+/* ----376px〜800px：タブレット
+/*========= TOPPAGE >>  ヘッダー開始 ===============*/
+
+    .header {
+        display: block;
+        width: 100%;
+        height: 72px;
+    }
+
+    .header-logo {
+        float: left;
+    }
+
+    .logostyle {
+        margin: 23px 0 0 33px;
+    }
+
+    .headerlogotext {
+        margin: 24.5px 0 0 63.5px;
+    }
+
+    .logotext {
+        position: absolute;
+        /*width: 133px;*/
+        height: 23px;
+    }
+
+    /*========= ここからハンバーガーメニュー ===============*/
+    .menu-btn {
+        position: absolute;
+        margin-top: 12px;
+        right: 32px;
+        display: flex;
+        height: 48px;
+        width: 48px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+    }
+  
+    .menu-btn span,
+    .menu-btn span::before,
+    .menu-btn span::after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 24px;
+        border-radius: 3px;
+        background-color: #000;
+        position: absolute;
+    }
+  
+    .menu-btn span::before {
+        bottom: 8px;
+    }
+  
+    .menu-btn span::after {
+        top: 8px;
+    }
+  
+    #menu-btn-check:checked ~ .menu-btn span {
+        background-color: rgba(255,255,255,0);
+    /* メニューオープン時に真ん中の線を透明にする */
+    }
+  
+    #menu-btn-check:checked ~ .menu-btn span::before {
+        bottom: 0;
+        transform: rotate(45deg);
+    }
+  
+    #menu-btn-check:checked ~ .menu-btn span::after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+  
+    #menu-btn-check {
+        display: none;
+    }
+  
+    .menu-contents {
+        width: 100%;
+        height: 1279px;
+        position: fixed;
+        top: 0;
+        left: 100%; /* leftの値を変更してメニューを画面外へ */
+        z-index: 80;
+        text-align: -webkit-center;
+        background: #FAFAFA 0% 0% no-repeat padding-box;
+        /*opacity: 0.8;*/
+        transition: all 1s;
+    }
+  
+    .menu-contents ul {
+        padding: 77px 0 0 32px;
+    }
+
+    .menu-contents ul li a {
+        display: block;
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+        text-decoration: none;
+        border-bottom: 1px solid #D6D6D6;
+        padding: 16px 0 16px 0;
+        text-align: center;
+        font: normal normal 600 16px/24px "Source Han Serif";
+        letter-spacing: 0px;
+        color: #333333;
+        opacity: 1;
+    }
+  
+    .menu-contents ul li a::before {
+        content: '';
+        width: 7px;
+        height: 7px;
+        transform: rotate(45deg);
+        position: absolute;
+        right: 11px;
+        top: 16px;
+    }
+  
+    #menu-btn-check:checked ~ .menu-contents {
+        left: 0; /* メニューを画面内へ */
+    }
+
+    .menu-contents li {
+        width: 500px;
+        text-align: center;
+    }
+
+
+    .hum-logo {
+        margin-top: 177px;
+        text-align: center;
+    }
+
+    .humlogotext {
+        margin-left: 348.75px;
+    }
+
+    .hum-logostyle {
+        position: absolute;
+        left: 318.25px;
+        width: 28px;
+        height: 26px;
+    }
+
+
+
+/* ----376px〜800px：タブレット
+/*========= TOPPAGE >>  main画像開始 ===============*/
+    #top {
+        width: 100%;
+        height: 293px;
+        background-color: #2A2A2A;
+    }
+
+    /*----main画像のテキスト----*/
+    .main-text {
+        position: absolute;
+    }
+    
+    h1 , h2 {
+        position: absolute;
+        width: 251px;
+        height: 30px;
+        color: #C4C4C4;
+    }
+    
+    h1 {
+        margin: 168px 0 0 441px;
+    }
+    
+    h2 {
+        margin: 198px 0 0 509px;
+    }
+    
+
+
+/* ----376px〜800px：タブレット
+/*========= TOPPAGE >>  Message開始 ===============*/
+    .tabtext {
+        display: none;
+    }
+
+    .message {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .message-title {
+        /*margin: 129px 0 0 334px;*/
+        margin-top: 129px;
+    }
+
+    .message-main {
+        display: block;
+        /*margin: 326px 0 0 40px;*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 326px;
+        width: 720px;
+        height: 304px;
+        box-shadow: 0px 3px 6px #00000029;
+        z-index: 0;
+        opacity: 0.8;
+    }
+
+    .message-container {
+        margin: 0 0 0 360px;
+        padding: 65px 0 0 0;
+        width: 360px;
+        height: 304px;
+    }
+
+    /*表題2*/
+    .title-m2 {
+        padding-top: 8px;
+    }
+
+    .text03 {
+        margin: 0 8px 0 64px;
+    }
+
+    .ceo {
+        width: 360px;
+        height: 304px;
+
+    }
+
+    .ceomessage {
+        margin: 0 0 0 64px ;
+        width: 232px;
+        height: 130px;
+        border: 1px solid #FFFFFF;
+        z-index: -1;
+    }
+
+/* ----376px〜800px：タブレット
+/*========= TOPPAGE >>  Company開始 ===============*/
+    #company {
+        width: 100%;
+        height: 1032px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title-c1 {
+        margin: 297px 1220px 0 186px;
+    }
+
+    .companyparts {
+        margin: 322px 0 0 40px;
+        width: 440px;
+        height: 64px;
+        z-index: 0;
+    }
+
+    .companyparts::before {
+        right: -50px;
+        transform: skew(-55deg);
+        }
+
+    .company {
+        /*margin: 520px 0 0 0px;*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 520px;
+        padding-left: 40px;
+    }
+
+    .company-table {
+        /*position: absolute;
+        margin: 580px 0 0 520px;*/
+        width: 718px;
+        height: 444px;
+        }
+
+    .company-table th {
+        padding-right: 134px;
+        padding-left: 75.5px;
+    }
+
+    .company-table tr {
+        width: 588px;
+    }   
+
+    table {
+        width: 718px;
+    }
+
+    /*Companytableの一番下を上揃え*/
+    .th08 {
+        vertical-align: text-top;
+        padding-top: 16px;
+    }
+
+
+    .td08 {
+        width: 360px;
+        height: 59px;
+        padding-right: 69px;
+        white-space: normal;
+    }
+
+/* ----376px〜800px：タブレット
+/*========= TOPPAGE >>  Recruit開始 ===============*/
+    .container {
+        width: 100%;
+        height: 547px;
+    }
+
+    .recruit {
+        width: 344px;
+        height: 328px;
+        margin-top: 123px;
+        margin-left: 40px;
+    }
+
+    .title-r1 {
+        margin: 32px 0 0 36px;
+    }
+
+    .re-message {
+        margin: 25px 0 0 36px;
+    }
+
+    .re-button {
+        margin: 48px 0 0 36px;
+    }
+
+    /*.re-text {
+        margin: 8px 80px;
+        font: normal 16px/24px Source Han Serif;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+/* ----376px〜800px：タブレット
+/*========= TOPPAGE >>  Contact開始 ===============*/
+    .contact {
+        width: 344px;
+        height: 328px;
+        margin-top: 123px;
+        margin-left: 416px;
+    }
+
+    .title-t1 {
+        margin: 31px 0 0 35px;
+    }
+
+    .contact-message {
+        margin: 25px 0 0 37px;
+    }
+
+    .phone {
+        margin: 25px 0 0 37px;
+    }
+
+    .form {
+        margin: 24px 0 0 37px;
+    }
+
+/* ----376px〜800px：タブレット
+/*========= TOPPAGE >>  map開始 ===============*/
+    .map {
+        width: 100%;
+        height: 368px;
+    }
+
+    .map-image {
+        width: 400px;
+        height: 240px;
+        margin-left: 5%;
+        margin-top: 0;
+    }
+
+    .maptext {
+        width: 137px;
+        height: 61px;
+        margin: 14px 0 0 17px;
+    }
+    
+
+    .adress{
+        margin: 30px 0 0 472px;
+        width: 256px;
+        height: 60px;
+        color: #2A2A2A;
+    }
+
+
+/* ----376px〜800px：タブレット
+/*========= TOPPAGE >>  フッター開始 ===============*/
+    .footer {
+        width: 100%;
+        height: 280px;
+        margin-top: 224px;
+    }
+
+    .footer-list {
+        display: contents;
+        width: 48px;
+        height: 23px;
+    }
+
+    .footer-list li {
+        margin-top: 32px;
+        margin-right: 22px;
+        float: left;
+    }
+
+    .li01 {
+        margin-left: 48px;
+    }
+
+    .footer-logo {
+        /*margin: 163.5px 0 0 350px;*/
+        width: 131px;
+        height: 23px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .footer-logostyle {
+        margin-top: 140.5px;
+    }
+
+    .footerlogotext {
+        font: normal normal normal 16px/24px "Source Han Serif";
+        margin-top: 140.5px;
+    }
+
+    .footer-under {
+        width: 100%;
+        height: 40px;
+        text-align: center;
+    }
+
+    .footer-text {
+        display: initial;
+        margin-top: 8.5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+    }
+
+/* ----376px〜800px：タブレット
+/*====================== RecruitPAGE開始 =============================================================================================*/
+    .re-recruit {
+        display: inline-block;
+        width: 100%;
+        height: 1265px;
+    }
+
+    .re-body {
+        width: 100%;
+    }
+
+    .recruit-title {
+        /*margin: 128px 0 0 341px;*/
+        width: 100%;
+        z-index: 3;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 128px;
+    }
+
+    /*採用情報表*/
+    .re-company {
+        display: block;
+        width: 720px;
+        height: 748px;
+        /*margin: 325px 0 0 40px;*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 325px;
+    }
+
+    .re-company th {
+        padding: 24px 0 30px 0;
+        width: 656px;
+        white-space: inherit;
+    }
+
+    .re-company-table , .table02 {
+        width: 656px;
+    }
+
+    /*福利厚生のBox*/
+    .recruit-box {
+        width: 708px;
+        height: 320px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .re-box {
+        width: 220px;
+        height: 320px;
+    }
+
+    .re-img01, .re-img02, .re-img03 {
+        width: 181.88px;
+        height: 157.63px;
+        margin: 16px 19px 0 19px;
+    }
+
+    .benefits {
+        margin: 181.45px 0 0 7.78px;
+        width: 174px;
+        height: 124.33px;
+    }
+
+    /*採用に関するメッセージ*/
+    .saiyou {
+        width: 560px;
+        height: 71px;
+        /*margin: 128px 0 0 120px;*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 128px;
+    }
+
+    /*Contact*/
+    .re-contact {
+        width: 344px;
+        height: 328px;
+        /*margin: 215px 0 244px 238px;*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 215px;
+    }
+
+
+/* ----376px〜1280px：タブレット
+/*====================== ContactPAGE開始 =============================================================================================*/
+    .contactpage-main {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title-m1 {
+        width: 122px;
+        height: 46px;
+
+    }
+
+    .contact-title {
+        /*margin: 128px 0 0 339px;*/
+        margin-top: 128px;
+    }
+
+    .con-contact {
+        width: 588px;
+        height: 879px;
+        /*margin: 120px 0 0 106px;*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 120px;
+        text-align: center;
+    }  
+
+    .contact-table {
+        width: 100%;
+        margin: 64px 0 569px 0;
+    }
+
+    .formbox {
+        width: 560px;
+        height: 72px;
+        margin: 8px 0 14px 0;
+    }
+
+    .policy {
+        margin-top: 36.5px;
+        text-align: center;
+    }
+
+    .submitbox {
+        margin-top: 64px;
+    }
+
+    .submit {
+        width: 560px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .con01 {
+        margin-top: 545px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/*========================================================= 
+PPPPPPPPPPPCCCCCCCCCCCC
+-------1281px〜1920px：PC---------------------------------------------------- */
+@media screen and (min-width:1281px) and (max-width:1920px) {
+    .hamberger-menu {
+        display: none;
+    }
+
+    /*表題1*/
+    .text01 { 
+        font: normal normal 40px/57px "Source Han Serif";
+    }
+
+
+/* ----801px〜1920px：PC
+/*========= TOPPAGE >>  ヘッダー開始 ===============*/
+
+    .header {
+        display: block;
+        width: 100%;
+        height: 96px;
+    }
+
+    .headerlogotext {
+        margin: 36.5px 0 0 65.5px;
+    }
+
+    .logotext {
+        /*width: 174px;*/
+        height: 30px;
+    }
+
+    .logostyle {
+        margin: 35px 0 0 35px;
+    }
+
+    .header-list ul {
+        text-align: right;
+    }
+
+    .menu {
+        margin: 0;
+        font: normal normal bold 21px/24px "Source Han Serif";
+        
+    }
+
+    .menu li {
+        display: inline-block;
+        margin: 36.5px 80px 0 0;
+}
+
+
+    /* ----801px〜1920px：PC------
+    /*========= TOPPAGE >>  main画像開始 ===============*/
+    #top {
+        width: 100%;
+        height: 704px;
+    }
+
+    /*----main画像のテキスト----*/
+    .main-text01 {
+        position: absolute;
+    }
+    
+    h1 , h2 {
+        position: absolute;
+        width: 539px;
+        height: 46px;
+        font: normal normal 600 32px/48px "Source Han Serif";
+    }
+    
+    h1 {
+        /*margin: 438px 0 0 913px;*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 438px;
+        right: 0;
+    }
+    
+    h2 {
+        /*margin: 498px 0 0 980px;*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 498px;
+        right: 0;
+    }
+
+
+    /* ----801px〜1920px：PC------
+    /*========= TOPPAGE >>  Message開始 ===============*/
+    .message {
+        display: inline-block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .message-title {
+        /*margin: 128px 877px 64px 877px;
+        margin-left: auto;
+        margin-right: auto;*/
+        margin-top: 128px;
+        width: 100%;
+    }
+
+    .message-main {
+        display: inline-block;
+        /*margin: 334px 360px 0 360px;*/
+        margin-top: 334px;
+        width: 62.5%;
+        height: 506px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .message-container {
+        margin: 0 0 0 628px;
+        padding: 159px 0 0 0;
+        width: 600px;
+        height: 506px;
+    }
+
+    /*表題2*/
+    .title-m2 {
+        padding-top: 6px;
+    }
+
+    /*CEO*/
+    .text03 {
+        margin:0 8px 0 0;
+    }
+
+
+    .ceo {
+        width: 1200px;
+        height: 506px;
+        border: 1px solid #C9CACA;
+        opacity: 1;
+    }
+
+    .ceomessage {
+        margin: 16px 0 0 0 ;
+        width: 545px;
+        height: 143px;
+        text-align: left;
+        font: normal normal 600 16px/24px "Source Han Serif";
+        letter-spacing: 0px;
+        color: #333333;
+        opacity: 1;
+    }
+
+/* ----801px〜1920px：PC------
+/*========= TOPPAGE >>  Company開始 ===============*/
+    #company {
+        width: 62.1%;
+        height: 1032px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title-c1 {
+        margin: 344px 1166px 0 208px;
+    }
+
+    .companyparts {
+	    /*margin: 378px 799.99px 0 360px;*/
+        margin-top: 378px;
+        width: 760px;
+        height: 76px;
+        z-index: 0;
+    }
+
+    .companyparts::before {
+	    content: "";
+	    position: absolute;
+	    top: 0;
+	    right: -40px;
+        width: 50%;
+        height: 100%;
+        border-right: 25px transparent;
+	    transform: skew(-45deg);
+        z-index: -1;
+    }
+
+    .company {
+        /*margin: 580px 0 0 520px;*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 580px;
+    }
+
+    .company-table {
+        width: 880px;
+        height: 426px;
+    }
+
+    .company-table th {
+        padding-right: 219px;
+        padding-left: 43px;
+        width: 48px;
+        height: 23px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 880px;
+    }
+
+
+    .td08 {
+        width: 480px;
+        height: 41px;
+        padding-right: 59px;
+    }
+
+/* ----801px〜1920px：PC------
+/*========= TOPPAGE >>  Recruit開始 ===============*/
+    .container {
+        width: 100%;
+        height: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 306px;
+
+    }
+
+    .recruit {
+        width: 400px;
+        height: 328px;
+        right: 0;
+        margin-right: 53.3%;
+        opacity: 1;
+    }
+
+    .title-r1 {
+        margin: 32px 219px 0 64px;
+    }
+
+    .re-message {
+        margin: 25px 112px 0 64px;
+    }
+
+
+/* ----801px〜1920px：PC------
+/*========= TOPPAGE >>  Contact開始 ===============*/
+    .contact {
+        width: 400px;
+        height: 328px;
+        margin-left: 53.3%;
+        margin-top: 0;
+    }
+
+    .title-t1 {
+        margin: 31px 215px 0 63px;
+    }
+
+    .contact-message {
+        margin: 25px 143px 0 65px;
+    }
+
+    .phone {
+        margin: 25px 63px 0 65px;
+    }
+
+    .form {
+        margin: 24px 63px 0 65px;
+    }
+
+/* ----801px〜1920px：PC------
+/*========= map開始 ===============*/
+    .map {
+        width: 100%;
+        height: 448px;
+    }
+
+    .map-image {
+        width: 600px;
+        height: 320px;
+        margin-right: 43%;
+        margin-top: 128px;
+        right: 0;
+    }
+
+    .maptext {
+        margin: 12px 0 0 14px;
+    }
+
+
+    .adress{
+        margin: 0;
+        /*margin-left: 58.6%;
+        margin-top: 194px;*/
+        position: absolute;
+        left: 632px;
+        width: 256px;
+        height: 60px;
+        color: #2A2A2A;
+    }
+
+
+/* ----801px〜1920px：PC------
+/*========= フッター開始 ===============*/
+    .footer {
+        width: 100%;
+        height: 560px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 256px
+    }
+
+    .footer-list {
+        display: inline;
+        width: 48px;
+        height: 23px;
+    }
+
+    .footer-list li {
+        margin-top: 128px;
+        margin-right: 32px;
+        float: left;
+    }
+
+    .li01 {
+        margin-left: auto;
+
+    }
+
+    .footer-logo {
+        width: 240px;
+        height: 80px;
+        /*margin: 263px 0 0 840px;*/
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 263px;
+        display: block;
+    }
+
+    .footer-under {
+        width: 100%;
+        height: 80px;
+        display: flex;
+    }
+
+    .footer-text {
+        /*position: absolute;*/
+        width: 95px;
+        height: 23px;
+        /*margin: 28px 0 0 912.5px;*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 28px;
+    }
+
+
+
+/* ----801px〜1920px：PC------
+/*====================== RecruitPAGE開始 =============================================================================================*/
+    .re-recruit {
+        display: inline-block;
+        width: 100%;
+        height: 1354px;
+    }
+
+    .re-body {
+        width: 100%;
+    }
+
+    .recruit-title {
+        /*margin: 128px 877px 64px 877px;*/
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 128px;
+        z-index: 3;
+        position: absolute;
+    }
+
+    /*採用情報表*/
+    .re-company {
+        display: block;
+        width: 1200px;
+        height: 730px;
+        /*margin: 336px 0 192px 360px;*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 336px;
+    }
+
+    .re-company-table {
+        width: 1200px;
+        height: 730px;
+        margin: 64px 0 0 32px;
+    }
+
+    .re-company-table tbody {
+        width: 1200px;
+    }
+
+    .re-company th {
+        padding: 24px 0 30px 0;
+    }
+
+    .table02 {
+        width: 1100px;
+    }   
+
+    /*福利厚生のBox*/
+    .recruit-box {
+        width: 1200px;
+        height: 560px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .re-box {
+        width: 384px;
+        height: 560px;
+    }
+
+    .re-img01, .re-img02, .re-img03 {
+        width: 346px;
+        height: 276px;
+        margin: 28px 19px 0 19px;
+    }
+
+    .benefits {
+        margin: 317.32px 19px 0 7.78px;
+        width: 338px;
+        height: 217px;
+        text-align: left;
+    }
+
+    /*採用に関するメッセージ*/
+    .saiyou {
+        width: 560px;
+        height: 71px;
+        /*margin: 125px 0 0 680px;*/
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 125px;
+    }
+
+    /*Contact*/
+    .re-contact {
+        width: 400px;
+        height: 328px;
+        /*margin: 251px 0 260px 760px;*/
+        margin-left: auto;
+        margin-right: auto;margin-top: 251px;
+    }
+
+    .title-t2 {
+        width: 96px;
+    }
+
+
+/* ----801px〜1920px：PC------
+/*====================== ContactPAGE開始 =============================================================================================*/
+    .contactpage-main {
+        width: 100%;
+        height: 1543px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .title-m1 {
+        width: 152px;
+        height: 57px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/*表題2*/
+    .con-title2 {
+        padding-top: 6px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-title {
+        /*margin: 128px 0 0 339px;*/
+        margin-top: 128px;
+    }
+
+    .con-contact {
+        width: auto;
+        /*margin: 120px 0 0 560px;*/
+        margin-top: 120px;
+        text-align: center;
+    }
+
+
+    .formbox {
+        width: 777px;
+        height: 72px;
+        margin: 8px 0 15px 0;
+    }
+
+    .policy {
+        /*margin: 64px 0 0 257px;*/
+        margin-top: 64px;
+        white-space: nowrap;
+    }
+
+    .policy span {
+        text-decoration: underline;
+    }
+
+    .submitbox {
+        margin-top: 64px;
+    }
+
+    .submit {
+        width: 588px;
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .con01 {
+        margin-top: 224px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (max-width: 375px) {
+/*　画面サイズが375px以下の場合ここの記述が適用される　
+
+    * {
+        float: none;
+        position: static;
+    }
+
+    .body {
+        width: 375px;
+    }
+    
+}
+
+
+/*====================
+スマホを基本設計にする
+ - 480px〜799px：スマートフォン
+ - 800px〜1279px：タブレット
+ - 1280px〜：大型PC
+====================*/
+ 
+/* PC
+------------------------------ */
+ここに基本CSSを書きます。
+モバイルファーストでは、モバイル最小値からPCの大きさに向けて、以降のCSSを書いていきます。
+ 
+ 
+/* 375px：SP
+------------------------------ 
+@media screen and (min-width:375px) and (max-width:480px) {
+    .re-body {
+        width: 375px
+
+    }
+
+    .logotext {
+        width: 133px;
+        height: 23px;
+    }
+    
+    .text01 {
+        width: 118px;
+        height: 46px;
+    }
+ 
+ 
+}
+
+
+
+/* 376px〜800px：タブレット
+------------------------------ */
+@media screen and (min-width:376px) and (max-width:800px) {
+}
+
+
+
+/* 801px〜1920px：PC
+------------------------------ */
+/*@media screen and (min-width:801px) and (max-width:1920px) {
+    .company-table {
+        /*position: absolute;
+        margin: 580px 0 0 520px;*/
+        width: 880px;
+        height: 426px;
+    }
+
+
+    /*.re-body {
+        width: 1920px;
+        height: 3509px;
+        background: #FAFAFA 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    /*.re-company {
+        display: block;
+        margin: 120px 0 192px 360px;
+    }*/
+
+    /*.re-company th {
+        padding: 24px 0 30px 0;
+    }
+    
+    .table02 {
+        width: 1100px;
+    }
+    
+    /*福利厚生のBox*/
+    /*.recruit-box {
+        width: 1200px;
+        height: 560px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    .re-box {
+        width: 384px;
+        height: 560px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    
+    .re-img01, .re-img02, .re-img03 {
+        width: 346px;
+        height: 276px;
+        margin: 28px 19px 0 19px;
+        background: #E8E8E8 0% 0% no-repeat padding-box;
+        border: 1px solid #C9CACA;
+        opacity: 1;
+    }
+    
+    .benefits {
+        margin: 13px 19px 0 27px;
+        width: 338px;
+        height: 217px;
+        text-align: left;
+        font: normal normal 600 16px/24px Source Han Serif;
+        letter-spacing: 0px;
+        color: #333333;
+        opacity: 1;
+    }
+    
+    /*採用に関するメッセージ*/
+    /*.saiyou {
+        width: 560px;
+        height: 71px;
+        margin: 125px 0 0 680px;
+        text-align: left;
+        font: normal normal 600 16px/24px Source Han Serif;
+        letter-spacing: 0px;
+        color: #333333;
+        opacity: 1;
+    }
+    
+    /*Contact*/
+    /*.re-contact {
+        width: 400px;
+        height: 328px;
+        margin: 251px 0 260px 760px;
+        background: #E8E8E8 0% 0% no-repeat padding-box;
+        border: 1px solid #C9CACA;
+        opacity: 1;
+    }
+    
+}

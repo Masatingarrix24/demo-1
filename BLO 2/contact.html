@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <!-- ビューポートの設定 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>株式会社BILLION_Contact</title>
+
+    <link rel="stylesheet" href="css/style.css"> 
+    <script src="https://use.typekit.net/plx5yxp.js" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<body class="body">
+    <!-- ヘッダー開始 -->
+    <header class="header" id="home">
+        <div class="header-logo">
+            <img src="css/billion_logo.svg" class="logostyle">
+            <div class="logotext headerlogotext">株式会社BILLION</div>
+        </div>
+        <!-- ここからハンバーガーメニュー -->
+        <div class="hamberger-menu">
+            <input type="checkbox" id="menu-btn-check">
+            <label for="menu-btn-check" class="menu-btn">
+                <span></span>
+            </label>
+            <div class="menu-contents">
+                <ul>
+                    <li><a href="index.html#home">ホーム</a></li>
+                    <li><a href="index.html#message">代表挨拶</a></li>
+                    <li><a href="index.html#company">会社概要</a></li>
+                    <li><a href="index.html#map">アクセス</a></li>
+                    <li><a href="#recruit">採用情報</a></li>
+                    <li><a href="#contactpage-main">お問い合わせ</a></li>
+                    <li><a href="index.html#home" style="border-bottom: none;">プライバシーポリシー</a></li>
+                </ul>
+                <div class="hum-logo">
+                    <img src="css/billion_logo.svg" class="hum-logostyle">
+                    <div class="logotext humlogotext">株式会社BILLION</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ここからメニューリスト -->
+        <div class="header-list">
+            <ul class="menu">
+                <li><a href="index.html#home">TOP</a></li>
+                <li><a href="index.html#message">Message</a></li>
+                <li><a href="index.html#company">Company</a></li>
+                <li><a href="recruit.html">Recruit</a></li>
+                <li><a href="#contactpage-main">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- ヘッダー終了 -->
+
+     <!-- Contcat開始(TOPページのMessageを転用) -->
+     <section class="contactpage-main" id="contactpage-main">
+        <div class="contact-title ">
+            <div class="text01 title-m1">Contact</div>
+            <div class="con-title2">お問い合わせ</div>
+        </div>
+
+        <div class="con-contact">
+            <form action="">
+                <table class="contact-table">
+                    法人名<br><input type="text" name="corporate-name" placeholder="法人名" class="formbox"><br>
+                    <div class="con-border"></div><br>
+                    名前<br><input type="text" name="yourname" placeholder="名前" class="formbox"><br>
+                    <div class="con-border"></div><br>
+                    カナ<br><input type="text" name="name-kana" placeholder="カナ" class="formbox"><br>
+                    <div class="con-border"></div><br>
+                    メールアドレス<br><input type="mail" name="mail-adress" placeholder="example@gmail.com" class="formbox"><br>
+                    <div class="con-border"></div><br>
+                    電話番号<br><input type="num" name="tel" placeholder="000-0000-0000" class="formbox"><br>
+                    <div class="con-border"></div><br>
+                    住所<br><input type="text" name="adress" placeholder="住所" class="formbox"><br>
+                    <div class="con-border"></div><br>
+                    お問合せ内容<br><textarea type="text" name="form-message" placeholder="お問合せ内容をご記入ください。" class="formbox" style="height: 128px;"></textarea><br>
+                <div class="policy">
+                    <input type="checkbox" name="policy"><span>プライバシーポリシー</span>に同意する
+                </div>
+                <div class="submitbox" id="submitbox">
+                    <input type="submit" value="送信" class="submit" id="submit">
+                </div>
+            </table>
+
+            </form>
+        </div>
+     </section>
+
+
+    <!-- フッター開始 -->
+    <footer>
+        <div class="footer con01">
+            <ul class="footer-list">
+                <li class="li01"><a href="index.html#home">ホーム</a></li>
+                <li><a href="index.html#message">代表挨拶</a></li>
+                <li><a href="index.html#company">会社概要</a></li>
+                <li><a href="index.html#map">アクセス</a></li>
+                <li><a href="index.html#recruit">採用情報</a></li>
+                <li><a href="index.html#contact">お問い合わせ</a></li>
+                <li>プライバシーポリシー</li>
+            </ul>
+            <div class="footer-logo">
+                <img src="css/billion_logo.svg" class="footer-logostyle">
+                <div class="logotext footerlogotext">株式会社BILLION</div>
+            </div>
+        </div>
+        <div class="footer-under">
+            <p class="footer-text">&copy;BILLION</p>
+        </div>
+    </footer>
+    <!-- フッター終了 -->
+
+</body>
+</html>
